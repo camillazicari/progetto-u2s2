@@ -5,6 +5,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -23,10 +24,26 @@ i {
     font-size: 0.8rem;
 }
 
+.size {
+    width: 13% !important;
+}
+
 .dropdown-item img {
     width: 10%;
 }
 
 .dropdown-menu {
     width: 10% !important;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+select {
+    font-size: 0.7em;
+}
+
+h2 {
+    font-size: 1.3em;
 }
