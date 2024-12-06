@@ -87,6 +87,15 @@ label, .settings {
     color: #6C757D;
 }
 
+.images img {
+    opacity: 50%;
+}
+
+.images img:hover {
+    opacity: 100%;
+    transform: scaleX(1.2) scaleY(1.2);
+}
+
 @media screen and (max-width: 767px) {
     #avatar {
         width: 50% !important;
