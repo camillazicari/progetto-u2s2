@@ -20,6 +20,10 @@ html, body {
     font-size: 0.6rem;
 }
 
+.navEnd {
+    width: 15%;
+}
+
 i {
     font-size: 0.8rem;
 }
