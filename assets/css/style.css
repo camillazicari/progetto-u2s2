@@ -78,8 +78,18 @@ label, .settings {
     color: black !important;
 }
 
+.logoP2 {
+    width: 180% !important;
+}
+
 @media screen and (max-width: 767px) {
     #avatar {
         width: 50% !important;
     } 
+}
+
+@media screen and (min-width:768px) {
+    #footer{
+        width: 50%;
+    }
 }
