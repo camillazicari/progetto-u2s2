@@ -16,8 +16,8 @@ html, body {
     width: 7%;
 }
 
-.navbar-nav {
-    font-size: 0.6rem;
+.navbar-nav, footer {
+    font-size: 0.8rem;
 }
 
 .navEnd {
@@ -50,4 +50,16 @@ select {
 
 h2 {
     font-size: 1.3em;
+}
+
+footer, footer i, footer button {
+    color: #818181;
+}
+
+footer button {
+    border-color: #818181;
+}
+
+#copy {
+    font-size: 0.5rem;
 }
