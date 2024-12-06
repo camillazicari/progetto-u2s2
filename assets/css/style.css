@@ -18,3 +18,15 @@ html, body {
 .navbar-nav {
     font-size: 0.6rem;
 }
+
+i {
+    font-size: 0.8rem;
+}
+
+.dropdown-item img {
+    width: 10%;
+}
+
+.dropdown-menu {
+    width: 10% !important;
+}
