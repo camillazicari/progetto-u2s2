@@ -13,7 +13,7 @@ html, body {
 }
 
 .navbar-brand {
-    width: 7%;
+    width: 7% !important;
 }
 
 .navbar-nav, footer {
@@ -62,4 +62,24 @@ footer button {
 
 #copy {
     font-size: 0.5rem;
+}
+
+#ratings {
+    background-color: #333333;
+    font-size: 0.8em !important;
+}
+
+label, .settings {
+    font-size: 0.8em;
+}
+
+.profileBtns:hover, .profileBtns:focus {
+    background-color: white !important;
+    color: black !important;
+}
+
+@media screen and (max-width: 767px) {
+    #avatar {
+        width: 50% !important;
+    } 
 }
