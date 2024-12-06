@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: white;
+}
+
+.navbar-brand {
+    width: 7%;
+}
+
+.navbar-nav {
+    font-size: 0.6rem;
+}
