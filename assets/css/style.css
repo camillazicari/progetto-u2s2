@@ -157,11 +157,11 @@ label, .settings {
     width: 20% !important;
   }
 
-  /* @media screen and (max-width: 991px) {
+  @media screen and (max-width: 767px) {
     #paypal {
-        width: 100% !important;
+        width: 35% !important;
       }
-  } */
+  }
 
   #avatarAccount {
     width: 15% !important;
