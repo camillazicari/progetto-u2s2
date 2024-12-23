@@ -4,7 +4,7 @@ const HomeUserName = localStorage.getItem('HomeUserName');
 const allert = document.getElementById('allert');
 
 window.addEventListener('load', function () {
-    userName.setAttribute('placeholder', `Attuale username: ${HomeUserName}. Scegli il nuovo username...`);
+    userName.setAttribute('placeholder', `Scegli il nuovo username...`);
 })
 
 
