@@ -137,3 +137,7 @@ label, .settings {
 #userName::placeholder {
     color: white;
   }
+
+  footer p {
+    cursor: pointer;
+  }
