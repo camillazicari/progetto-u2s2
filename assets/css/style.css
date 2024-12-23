@@ -133,3 +133,7 @@ label, .settings {
         width: 20%;
     }
 }
+
+#userName::placeholder {
+    color: white;
+  }
