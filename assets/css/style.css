@@ -117,3 +117,13 @@ label, .settings {
     left: -3000px;
   }
 }
+
+.carousel-control-prev, .carousel-control-next {
+    width: 3%;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-control-prev, .carousel-control-next {
+        width: 20%;
+    }
+}
