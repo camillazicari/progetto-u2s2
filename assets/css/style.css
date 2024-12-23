@@ -29,7 +29,13 @@ i {
 }
 
 .size {
-    width: 13% !important;
+    width: 7% !important;
+}
+
+@media screen and (min-width: 992px) {
+    .size {
+        width: 13% !important;
+    }
 }
 
 .dropdown-item img {
