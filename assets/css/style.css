@@ -91,9 +91,9 @@ label, .settings {
     opacity: 50%;
 }
 
-.images img:hover {
+.images img:hover, .card-img:hover {
     opacity: 100%;
-    transform: scaleX(1.2) scaleY(1.2);
+    transform: scaleX(1.1) scaleY(1.1);
 }
 
 @media screen and (max-width: 767px) {
@@ -106,4 +106,10 @@ label, .settings {
     #footer{
         width: 50%;
     }
+}
+
+@media screen and (max-width: 991px) {
+  .position-absolute{
+    left: -3000px;
+  }
 }
