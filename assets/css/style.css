@@ -88,12 +88,16 @@ label, .settings {
 }
 
 .images img {
+    opacity: 70%;
+}
+
+.card-img:not(:hover) {
     opacity: 50%;
 }
 
-.images img:hover, .card-img:hover {
+.card-img:hover {
     opacity: 100%;
-    transform: scaleX(1.1) scaleY(1.1);
+    transform: scaleX(1.05) scaleY(1.05);
 }
 
 @media screen and (max-width: 767px) {
